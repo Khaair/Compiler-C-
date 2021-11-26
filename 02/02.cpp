@@ -7,7 +7,7 @@ if(pre_value=='+'||pre_value=='-'||pre_value=='*'||pre_value=='/'||pre_value=='%
 return 1;
 else if(pre_value=='['||pre_value==']'||pre_value=='{'||pre_value=='}'||pre_value=='('||pre_value==')')
 return 1;
-else if(pre_value=='"'||pre_value==';'||pre_value==','||pre_value=='.'||pre_value=='\'')
+else if(pre_value=='"'||pre_value==';'||pre_value==':'||pre_value==','||pre_value=='.'||pre_value=='\'')
 return 1;
 else
 return 0;
