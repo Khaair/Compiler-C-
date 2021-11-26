@@ -1,0 +1,9 @@
+char t;
+int n;
+FILE *f1;
+f1=fopen("Input.txt","r");
+while(t=getc(f1))
+{
+if(n)
+putc(t,f2);
+}

@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+int i,a,b,c;
+char ch;
+string str;
+for(i=1; i<=15; i++)
+cout<<"The number is: "<<i<<endl;
+return 0;
+}
