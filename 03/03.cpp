@@ -18,7 +18,7 @@ if(check(str))
 {
 cout<<str<<" variable= ";
 int k=0;
-while(1)
+while(2)
 {
 char ch=getchar();
 if(ch==';')
