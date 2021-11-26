@@ -16,11 +16,11 @@ int n,k;
 int anu;
 string st;
 freopen("Input.txt","r",stdin);
-char pre_value='7';
+char pre_value='1';
 printf("Keywords are given bellow\n\n");
 while(cin>>st)
 {
-if(check(s))
+if(check(st))
 {
 cout<<st<<" is a keyword\n";
 }
